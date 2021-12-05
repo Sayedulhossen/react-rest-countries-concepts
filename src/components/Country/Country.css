@@ -1,0 +1,14 @@
+.countries-container{
+    
+}
+
+
+.country{
+    background-color: lightslategray;
+    border: 2px solid aquamarine;
+    margin: 10px;
+    padding: 5px;
+}
+.country img{
+    width: 200px;
+}

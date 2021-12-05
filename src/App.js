@@ -1,19 +1,21 @@
 import './App.css';
 import { useState } from 'react';
 import Countries from './components/Countries/Countries';
-import Person from './components/Person/Person';
-import Header from './components/Header/Header';
-
 function App() {
   return (
     <div className="App">
       {/* <Countries></Countries> */}
-      <Header></Header>
       <Countries></Countries>
-      <Person></Person>
     </div>
   );
 }
+
+
+ 
+export default App;
+
+
+
 // function Countries() {
   
 //   const [countries, setCountries] = useState([]);
@@ -41,4 +43,3 @@ function App() {
 //     </div>
 //   )
 // }
-export default App;
